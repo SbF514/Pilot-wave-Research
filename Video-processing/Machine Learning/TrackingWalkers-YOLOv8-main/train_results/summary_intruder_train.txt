@@ -1,0 +1,17 @@
+=training=======
+186 epochs completed in 0.039 hours.
+Optimizer stripped from runs/detect/train2/weights/last.pt, 6.2MB
+Optimizer stripped from runs/detect/train2/weights/best.pt, 6.2MB
+
+Validating runs/detect/train2/weights/best.pt...
+Ultralytics YOLOv8.0.93 🚀 Python-3.10.11 torch-2.0.0+cu118 CUDA:0 (NVIDIA A100-SXM4-40GB, 40514MiB)
+Model summary (fused): 168 layers, 3005843 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  6.48it/s]
+                   all         16         56      0.999          1      0.995      0.722
+                   
+                   
+                   
+====testing====
+val: New cache created: /content/datasets/intruder/test/labels.cache
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  2.73it/s]
+                   all          8         28      0.997          1      0.995      0.678
